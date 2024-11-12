@@ -1,4 +1,4 @@
-# draft_01_correlation
+# TE_draft_01_correlation
 
 1. Correlation analyses of  the Assemblies and Transposable Elements
 Correlation analysis is used to determine whether the values of two variables are associated. There are different methods to perform correlation analysis: Pearson correlation (r) (parametric), Kendall tau, and Spearman rho, which are rank-based correlation coefficients (non-parametric). The most commonly used method is the Pearson correlation method.
@@ -20,4 +20,3 @@ Where xi is the ordered random sample values, ai are constants generated from th
 
 2. Compute correlation using R package
 Correlation coefficient is computed in R software (ver. 4.1.0) using the functions cor() or cor.test() in the ggpubr package [https://github.com/kassambara/ggpubr]. The cor() computes the correlation coefficient. The cor. test() test for association/correlation between paired samples. It returns both the correlation coefficient and the significance level (or p-value) of the correlation. The R function shapiro.test() can be used to perform the Shapiro-Wilk (W) test of normality for one variable (univariate) to check data from each of the two variables (Assembly Size, TE length) follow a normal distribution or not. The normality plot is drawn using the R function: ggpubr::ggqqplot(). 
-![image](https://github.com/user-attachments/assets/a2167e7a-9a23-4db6-843b-ec2bfef29d47)
