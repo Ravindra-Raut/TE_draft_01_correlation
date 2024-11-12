@@ -1,4 +1,4 @@
-# TE_draft_01_correlation
+# TE Statistical Analysis
 
 1. Correlation analyses of  the Assemblies and Transposable Elements
 Correlation analysis is used to determine whether the values of two variables are associated. There are different methods to perform correlation analysis: Pearson correlation (r) (parametric), Kendall tau, and Spearman rho, which are rank-based correlation coefficients (non-parametric). The most commonly used method is the Pearson correlation method.
